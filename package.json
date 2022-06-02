@@ -2,12 +2,13 @@
   "name": "lari",
   "version": "1.0.0",
   "description": "",
+  "repository": "github:d-freitas/node-app-boilerplate",
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Davi Freitas",
   "license": "ISC",
   "devDependencies": {
     "@swc/jest": "^0.2.21",
