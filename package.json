@@ -7,7 +7,19 @@
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "boilerplate",
+    "hexagonal architecture",
+    "clean architecture",
+    "clean code",
+    "tdd",
+    "typescript",
+    "jest",
+    "standard-js",
+    "eslint",
+    "api",
+    "restful"
+  ],
   "author": "Davi Freitas",
   "license": "ISC",
   "devDependencies": {
