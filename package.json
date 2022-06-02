@@ -21,7 +21,7 @@
     "restful"
   ],
   "author": "Davi Freitas",
-  "license": "ISC",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@swc/jest": "^0.2.21",
     "@types/jest": "^28.1.0",
