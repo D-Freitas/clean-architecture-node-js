@@ -1,8 +1,8 @@
 {
-  "name": "api-example-with-clean-arch",
+  "name": "books-api",
   "version": "1.0.0",
   "description": "",
-  "repository": "github:d-freitas/clean-ts-api",
+  "repository": "github:d-freitas/books-api",
   "scripts": {
     "start": "node dist/main/server.js",
     "build": "tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist"
