@@ -1,4 +1,3 @@
-import 'module-alias/register'
 import { app, env } from '@/main/config'
 
 const { port } = env
