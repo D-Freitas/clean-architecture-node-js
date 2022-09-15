@@ -4,7 +4,7 @@
     "outDir": "dist",
     "rootDirs": ["src", "tests"],
     "target": "es2021",
-    "sourceMap": true,
+    "sourceMap": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
