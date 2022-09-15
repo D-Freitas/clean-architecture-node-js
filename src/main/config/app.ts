@@ -1,3 +1,7 @@
 import express from 'express'
+import { setupRoutes } from '@/main/config/routes'
 
-export const app = express()
+const app = express()
+app.set('json spaces', 2)
+setupRoutes(app)
+export { app }
