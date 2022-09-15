@@ -1,5 +1,9 @@
-import { BooksStockDTO } from '@/data/dtos'
+import { BookStock } from "@/domain/entities";
 
 export interface LoadBooksRepository {
-  loadBooks: () => Promise<BooksStockDTO[]>
+  loadBooks: () => LoadBooksRepository.outPut;
+}
+
+export namespace LoadBooksRepository {
+  export type outPut = Promise<BookStock[]>;
 }
