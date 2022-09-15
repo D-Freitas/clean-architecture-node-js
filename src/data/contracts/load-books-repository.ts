@@ -1,9 +1,9 @@
-import { BookStock } from "@/domain/entities";
+import { BookStock } from "@/domain/entities"
 
 export interface LoadBooksRepository {
-  loadBooks: () => LoadBooksRepository.outPut;
+  loadBooks: () => LoadBooksRepository.output
 }
 
 export namespace LoadBooksRepository {
-  export type outPut = Promise<BookStock[]>;
+  export type output = Promise<BookStock[]>
 }
