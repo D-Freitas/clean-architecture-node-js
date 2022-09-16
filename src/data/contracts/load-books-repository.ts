@@ -1,4 +1,4 @@
-import { BookStock } from "@/domain/entities"
+import { BookStock } from '@/domain/entities'
 
 export interface LoadBooksRepository {
   loadBooks: () => LoadBooksRepository.output
