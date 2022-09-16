@@ -17,6 +17,7 @@
   ],
   "rules": {
     "no-use-before-define": "off",
-    "no-useless-constructor": "off"
+    "no-useless-constructor": "off",
+    "no-redeclare": "off"
   }
 }
